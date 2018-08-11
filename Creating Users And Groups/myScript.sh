@@ -1,3 +1,7 @@
+########
+#This script takes two arguments: the first being a userName and the second being a groupName.
+# If both arguments are valid, a new user will be created to have the primary group that was specified, and
+# a directory will be created for the user along with the appropriate permissions.
 #!/bin/bash
 
 check() {
